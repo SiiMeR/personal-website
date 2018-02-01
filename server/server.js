@@ -1,11 +1,15 @@
-const express = require("express");
+import express from 'express';
 const mongoose = require('./config/mongoose');
 const graphqlHTTP = require("express-graphql");
 const cors = require("cors");
+const bodyParser = require("body-parser");
 const db = mongoose();
 const app = express();
 
 app.use('*', cors());
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
 const userSchema = require('./graphql/index').userSchema;
 app.use('/graphql', cors(), graphqlHTTP({
