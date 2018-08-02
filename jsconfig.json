@@ -1,7 +1,0 @@
-{
-  "compilerOptions": {
-    "experimentalDecorators": true,
-    "inlineSourceMap": true,
-    "emitDecoratorMetadata": true
-  }
-}
