@@ -36,7 +36,7 @@
     "jest": "^22.0.6",
     "jest-environment-node": "^22.0.6",
     "lodash": "^4.17.4",
-    "mongoose": "^5.0.2",
+    "mongoose": "^5.7.5",
     "node-sass": "^4.9.2",
     "npm-cli": "^0.1.0",
     "object-assign": "4.1.1",
