@@ -35,7 +35,7 @@
     "html-webpack-plugin": "2.29.0",
     "jest": "^22.0.6",
     "jest-environment-node": "^22.0.6",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.13",
     "mongoose": "^5.7.5",
     "node-sass": "^4.9.2",
     "npm-cli": "^0.1.0",
