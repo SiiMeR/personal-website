@@ -37,7 +37,7 @@
     "jest-environment-node": "^22.0.6",
     "lodash": "^4.17.13",
     "mongoose": "^5.7.5",
-    "node-sass": "^4.9.2",
+    "node-sass": "^7.0.0",
     "npm-cli": "^0.1.0",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.2.0",
